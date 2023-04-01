@@ -5,6 +5,7 @@ import ContactList from './ContactList';
 import ContactFilter from './ContactFilter';
 import { Layout, TitlePhoneBook, TitleContacts } from './AppStyled';
 
+
 export const App = () => {
   const contacts = useSelector(getContacts);
 
